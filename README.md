@@ -10,9 +10,10 @@ These are
 - ASR (not so easy; in a first attempt, Google STT will be implemted; 
   however on-device STT ist the goal!)
 - NLU (even more simple: Snips style, to have skill-code at GitHub and the rules for skill recognition
-  in the Snips console have been annoying since the beginnen.
-  Goal is to integrate NLU in the Skill code)
+  in the Snips console have been annoying since ever.
+  Goal is to integrate NLU-rules with the skill code, to have everything in one place)
 - logs and watch-service.
   
 The idea behind the project is, to build new services that publish and subscribe to Snips-compatible
 MQTT messages, so that exsisting (and future) Snips skills keep beeing interoperable with the framework.
+If (in the far future) everything works, NoSnips has a chance become the better Snips^^
